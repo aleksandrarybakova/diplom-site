@@ -1,0 +1,68 @@
+@import url("../fonts/fonts.css");
+
+*{
+    font-family: SourceSansPro;
+    color: #222222;
+}
+
+.container.start{
+    height: 1016px;
+}
+
+#top{
+    background-color: #fcdb00;
+}
+
+.menu_icon{
+    background-image: url(../img/icons/menu-icon.png) !important;
+}
+
+.logo{
+    width: 51px;
+    height: 51px;
+}
+
+.logo_name{
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 11px;
+}
+
+.social_networks_icons>a{
+    padding-left: 18px;
+}
+
+.social_networks_icons a:first-child{
+    padding-right: 9px;
+}
+
+.start_page{
+    padding-top: 304px;
+    padding-left: 259px;
+    padding-right: 256px;
+}
+
+h1{
+    font-size: 57px;
+    font-weight: 700;
+}
+
+.start_text{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+.start_button{
+    width: 303px;
+    height: 67px;
+    border: 2px solid #000000;
+    background-color: #fcdb00;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.arrow{
+    padding-top: 213px;
+    padding-bottom: 63px;
+}
