@@ -13,8 +13,16 @@
     background-color: #fcdb00;
 }
 
+.top_navigation{
+    padding-top: 72px;
+}
+
 .menu_icon{
-    background-image: url(../img/icons/menu-icon.png) !important;
+    font-size: 26px;
+}
+
+.logo_cont, .social_networks_icons{
+    height: 53px;
 }
 
 .logo{
@@ -28,12 +36,16 @@
     padding-left: 11px;
 }
 
-.social_networks_icons>a{
+.social_networks_icons>div{
     padding-left: 18px;
 }
 
-.social_networks_icons a:first-child{
+.social_networks_icons div:first-child{
     padding-right: 9px;
+}
+
+.s-icon{
+    font-size: 26px;
 }
 
 .start_page{
@@ -65,4 +77,177 @@ h1{
 .arrow{
     padding-top: 213px;
     padding-bottom: 63px;
+}
+
+#features{
+    padding-top: 137px;
+}
+
+.features_description{
+    margin-bottom: 103px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #010101;
+}
+
+h2.features_heading, h2.pricing{
+    margin-bottom: 19px;
+}
+
+.main_text {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.34px;
+    color: #898989;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.text_features, .period{
+    font-size: 19px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.feature_row{
+    margin-bottom: 102px;
+}
+
+#price{
+    margin-top: 276px;
+    margin-bottom: 49px;
+}
+
+.price_row{
+    margin-bottom: 90px;
+}
+
+.trial_cont{
+    width: 57%;
+}
+
+.h_price{
+    font-size: 28px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.price_text{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.34px;
+    color: #898989;
+    padding-top: 29px;
+    margin-bottom: 51px;
+}
+
+.price{
+    font-size: 38px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 10px;
+}
+
+.line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.period{
+    margin-bottom: 44px;
+}
+
+.price_button{
+    width: 166px;
+    height: 57px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    color: #010101;
+}
+
+#works{
+    margin-top: 200px;
+    margin-bottom: 21px;
+}
+
+.h_works, .h_team{
+    margin-bottom: 28px;
+}
+
+.works_row{
+    margin-bottom: 81px;
+}
+
+.type_work{
+    margin-top: 23px;
+    margin-bottom: 9px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.category{
+    margin-bottom: 77px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #898989;
+}
+
+#team{
+    margin-top: 233px;
+}
+
+.team_text{
+    margin-bottom: 89px;
+}
+
+.name{
+    margin-top: 49px;
+    margin-bottom: 13px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #010101;
+}
+
+.function{
+    margin-bottom: 18px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.description{
+    margin-bottom: 14px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #313841;
+}
+
+.social-icon{
+    margin-left: 11px;
+    font-size: 19px;
+}
+
+.social-icon:first-child{
+    margin-right: 5px;
+}
+
+#stats{
+    margin-top: 200px;
+}
+
+.stat_row{
+    margin-bottom: 60px;
 }

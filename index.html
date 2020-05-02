@@ -8,6 +8,8 @@
   <title>Tinyone</title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="font awesome/all.css" rel="stylesheet">
+  <script src="font awesome/all.js"></script>
 </head>
 
 <body id="page-top">
@@ -18,9 +20,9 @@
       <div class="row justify-content-between top_navigation">
         <div class="col-4">
 
-          <nav class="navbar navbar-light">
+          <nav class="navbar navbar-light fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon menu_icon"></span>
+              <span class="menu_icon"><i class="fas fa-bars"></i></span>
             </button>
           
           
@@ -51,17 +53,17 @@
             </div>
           </nav>
         </div>
-        <div class="col-4 d-flex flex-row">
+        <div class="col-4 d-flex flex-row d-flex align-items-center logo_cont">
           <img class="logo" src="img/icons/fingerprint.png" alt="logo">
-          <p class="logo_name">tinyone</p>
+          <div class="logo_name">tinyone</div>
          
 
         </div>
-        <div class="col-4 d-flex justify-content-end social_networks_icons">
-          <a href="#"><img src="img/icons/facebook_ico.png" alt=""></a>
-          <a href="#"><img src="img/icons/twitter_ico.png" alt=""></a>
-          <a href="#"><img src="img/icons/google_+_ico.png" alt=""></a>
-          <a href="#"><img src="img/icons/pinterest_ico.png" alt=""></a>
+        <div class="col-4 d-flex justify-content-end d-flex align-items-center social_networks_icons">
+          <div><a href="#"><i class="fab fa-facebook-f s-icon"></i></a></div>
+          <div><a href="#"><i class="fab fa-twitter s-icon"></i></a></div>
+          <div><a href="#"><img src="img/icons/social_googleplus_google_41.png" height="25px" alt=""></a></div>
+          <div><a href="#"><i class="fab fa-pinterest s-icon"></i></a></div>
 
         </div>
       </div>
@@ -84,99 +86,120 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-12">
-          <h2>Tinyone features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        <div class="col-lg-12 text-center features_description">
+          <h2 class="features_heading">Tinyone features</h2>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
 
-      <div class="row"> 
-        <div class="col-4">
-          <img src="img/icons/mobil_icon.png" alt="mobil_icon">
-          <section>
-            <h3>Fully Responsive</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
+      <div class="row feature_row"> 
+        <div class="col-1">
+          <img class="feature_icon"src="img/icons/mobil_icon.png" alt="mobil_icon">
         </div>
-        <div class="col-4">
+        <div class="col-3">
+          <h3>Fully Responsive</h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+        </div>
+        
+        <div class="col-1">
           <img src="img/icons/lemon_icon.png" alt="lemon_icon">
-          <section>
-            <h3>Fully Layered PSD</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
         </div>
-        <div class="col-4">
+        <div class="col-3">
+          <h3>Fully Layered PSD</h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+        </div>
+        
+        <div class="col-1">
           <img src="img/icons/folder_icon.png" alt="folder_icon">
-          <section>
-            <h3>Font Awesome Icons</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
+        </div>
+        <div class="col-3">
+          <h3>Font Awesome Icons</h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-4">
+        <div class="col-1">
           <img src="img/icons/teg_icon.png" alt="teg_icon">
-          <section>
-            <h3>HTML3 & CSS3 </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
         </div>
-        <div class="col-4">
-          <img src="img/icons/mail_icon.png" alt="mail_icon">
-          <section>
-            <h3>Email Template</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
+        <div class="col-3">
+          <h3>HTML3 & CSS3 </h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
         </div>
-        <div class="col-4">
+        
+        <div class="col-1">
+          <img src="img/icons/mail_icon.png" alt="">
+        </div>
+        <div class="col-3">
+          <h3>Email Template</h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+        </div>
+        
+        <div class="col-1">
           <img src="img/icons/download_icon.png" alt="download_icon">
-          <section>
-            <h3>Free to download</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
-          </section>
         </div>
+        <div class="col-3">
+          <h3>Free to download</h3>
+          <p class="text_features">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.</p>
+        </div>
+        
       </div>      
   </section>
 
   <section id="price">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Pricing And Free Trial</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+      <div class="row price_row">
+        <div class="col-lg-12 text-center">
+          <h2 class="pricing">Pricing And Free Trial</h2>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
-          <img src="img/basic_price.png" alt="">
-          <p>Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit
-          </p>
-          <p class="price">FREE</p>
-          <img src="img/line.png" alt="" class="line">
-          <p class="period">free forever</p>
-          <button class="price_button">GET FREE NOW</button>
+        <div class="col-4 d-flex">
+          <div class="trial_item d-flex justify-content-end">
+            <div class="basic text-center trial_cont">
+              <img src="img/basic_price.png" alt="">
+              <h3 class="h_price">Basic</h3>
+              <p class="price_text">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit
+              </p>
+              <p class="price">FREE</p>
+              <img src="img/line.png" alt="" class="line">
+              <p class="period">free forever</p>
+              <button class="price_button">GET FREE NOW</button>
+            </div>  
+          </div>
         </div>
         <div class="col-4">
-          <img src="img/snandart_price.png" alt="">
-          <p>Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit
-          </p>
-          <p class="price">$99</p>
-          <img src="img/line.png" alt="" class="line">
-          <p class="period">month</p>
-          <button class="price_button">UPGRADE</button>  
-        </div>
+          <div class="trial_item d-flex justify-content-center">
+           <div class="standart text-center trial_cont">
+              <img src="img/snandart_price.png" alt="">
+              <h3 class="h_price">Standart</h3>
+              <p class="price_text">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit
+              </p>
+              <p class="price">$99</p>
+              <img src="img/line.png" alt="" class="line">
+              <p class="period">month</p>
+              <button class="price_button">UPGRADE</button>
+            </div>
+          </div>  
+        </div>  
+        
         <div class="col-4">
-          <img src="img/enterprise_price.png" alt="">
-          <p>Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit
-          </p>
-          <p class="price">$199</p>
-          <img src="img/line.png" alt="" class="line">
-          <p class="period">month</p>
-          <button class="price_button">LEARN MORE</button>
+          <div class="trial_item d-flex justify-content-start">
+           <div class="enterprise text-center trial_cont">
+             <img src="img/enterprise_price.png" alt="">
+             <h3 class="h_price">Enterprise</h3>
+             <p class="price_text">Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit
+             </p>
+             <p class="price">$199</p>
+             <img src="img/line.png" alt="" class="line">
+             <p class="period">month</p>
+             <button class="price_button">LEARN MORE</button>
+           </div>
+          </div>
         </div>
       </div>
     </div>
@@ -184,54 +207,54 @@
 
   <section id="works">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Our works</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+      <div class="row works_row">
+        <div class="col-lg-12 text-center">
+          <h2 class="h_works">Our works</h2>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works1.jpg" alt="">
-          <p>Fully Responsive</p>
-          <p>Design / Branding</p>
+          <p class="type_work">Fully Responsive</p>
+          <p class="category">Design / Branding</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works2.jpg" alt="">
-          <p>Font Awesome Icons</p>
-          <p>Design / Branding</p>
+          <p class="type_work">Font Awesome Icons</p>
+          <p class="category">Design / Branding</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works3.jpg" alt="">
-          <p>HTML3 & CSS3 </p>
-          <p>App design / development</p>
+          <p class="type_work">HTML3 & CSS3 </p>
+          <p class="category">App design / development</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works4.jpg" alt="">
-          <p>Various Layouts</p>
-          <p>Branding</p>
+          <p class="type_work">Various Layouts</p>
+          <p class="category">Branding</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works5.jpg" alt="">
-          <p>Fully Responsive</p>
-          <p>Design / Branding</p>
+          <p class="type_work">Fully Responsive</p>
+          <p class="category">Design / Branding</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works6.jpg" alt="">
-          <p>Font Awesome Icons</p>
-          <p>Design / Branding</p>
+          <p class="type_work">Font Awesome Icons</p>
+          <p class="category">Design / Branding</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works7.jpg" alt="">
-          <p>HTML3 & CSS3 </p>
-          <p>App design / development</p>
+          <p class="type_work">HTML3 & CSS3 </p>
+          <p class="category">App design / development</p>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <img src="img/works8.jpg" alt="">
-          <p>Various Layouts</p>
-          <p>Branding</p>
+          <p class="type_work">Various Layouts</p>
+          <p class="category">Branding</p>
         </div>
       </div>
     </div>
@@ -240,62 +263,62 @@
   <section id="team">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <h2>Our team</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        <div class="col-lg-12 text-center">
+          <h2 class="h_team">Our team</h2>
+          <p class="main_text team_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 text-center">
           <div class="worker_photo">
             <img src="img/worker1.png" alt="">
           </div>
           <p class="name">John Doe</p>
           <p class="function">UI Designer</p>
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <div class="social_icons">
-            <img src="img/icons/facebook_mini.png" alt="">
-            <img src="img/icons/twitter_mini.png" alt="">
-            <img src="img/icons/linkedin_mini.png" alt="">
+          <div class="d-flex flex-row d-flex justify-content-center social_icons">
+            <div class="social-icon"><a href="#"></a><i class="fab fa-facebook-f"></i></div>
+            <div class="social-icon"><a href="#"><i class="fab fa-twitter"></i></div>
+            <div class="social-icon"><a href="#"></a><i class="fab fa-linkedin-in"></i></div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <div class="worker_photo">
             <img src="img/worker2.png" alt="">
           </div>
           <p class="name">John Doe</p>
           <p class="function">UI Designer</p>
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <div class="social_icons">
-            <img src="img/icons/facebook_mini.png" alt="">
-            <img src="img/icons/twitter_mini.png" alt="">
-            <img src="img/icons/linkedin_mini.png" alt="">
+          <div class="d-flex flex-row d-flex justify-content-center social_icons">
+            <div class="social-icon"><a href="#"></a><i class="fab fa-facebook-f"></i></div>
+            <div class="social-icon"><a href="#"><i class="fab fa-twitter"></i></div>
+            <div class="social-icon"><a href="#"></a><i class="fab fa-linkedin-in"></i></div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <div class="worker_photo">
             <img src="img/worker3.png" alt="">
           </div>
           <p class="name">John Doe</p>
           <p class="function">UI Designer</p>
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <div class="social_icons">
-            <img src="img/icons/facebook_mini.png" alt="">
-            <img src="img/icons/twitter_mini.png" alt="">
-            <img src="img/icons/linkedin_mini.png" alt="">
+          <div class="d-flex flex-row d-flex justify-content-center social_icons">
+            <div class="social-icon"><a href="#"></a><i class="fab fa-facebook-f"></i></div>
+            <div class="social-icon"><a href="#"><i class="fab fa-twitter"></i></div>
+            <div class="social-icon"><a href="#"></a><i class="fab fa-linkedin-in"></i></div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 text-center">
           <div class="worker_photo">
             <img src="img/worker4.png" alt="">
           </div>
           <p class="name">John Doe</p>
           <p class="function">UI Designer</p>
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <div class="social_icons">
-            <img src="img/icons/facebook_mini.png" alt="">
-            <img src="img/icons/twitter_mini.png" alt="">
-            <img src="img/icons/linkedin_mini.png" alt="">
+          <div class="d-flex flex-row d-flex justify-content-center social_icons">
+            <div class="social-icon"><a href="#"></a><i class="fab fa-facebook-f"></i></div>
+            <div class="social-icon"><a href="#"><i class="fab fa-twitter"></i></div>
+            <div class="social-icon"><a href="#"></a><i class="fab fa-linkedin-in"></i></div>
           </div>
         </div>
       </div>
@@ -304,36 +327,36 @@
 
   <section id="stats">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
+      <div class="row stat_row">
+        <div class="col-lg-12 text-center">
           <h2>Stats & Testimonial</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-2 offset-2">
+        <div class="col-2 offset-2 text-center">
           <div class="achievement_icons">
             <img src="img/icons/puzzle-piece.png" alt="">
           </div>
           <p class="amount">20</p>
           <p class="nomin">Products</p>
         </div>
-        <div class="col-2">
+        <div class="col-2 text-center">
           <div class="achievement_icons">
             <img src="img/icons/cloud-download.png" alt="">
           </div>
           <p class="amount">120,000</p>
           <p class="nomin">Downloads</p>
         </div>
-        <div class="col-2">
+        <div class="col-2 text-center">
           <div class="achievement_icons">
             <img src="img/icons/users.png" alt="">
           </div>
           <p class="amount">1200</p>
           <p class="nomin">Customers</p>
         </div>
-        <div class="col-2">
+        <div class="col-2 text-center">
           <div class="achievement_icons">
             <img src="img/icons/thumbs-up.png" alt="">
           </div>
@@ -367,9 +390,9 @@
   <section id="communication">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 text-center">
           <h2>Keep in touch with us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
       <div class="row">
@@ -407,9 +430,9 @@
   <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 text-center">
           <h2>Sign up for our newsletter</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
       <div class="row">
