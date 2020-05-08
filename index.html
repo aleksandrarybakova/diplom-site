@@ -20,7 +20,7 @@
       <div class="row justify-content-between top_navigation">
         <div class="col-4">
 
-          <nav class="navbar navbar-light fixed-top">
+          <nav class="navbar navbar-light toggler-burger">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="menu_icon"><i class="fas fa-bars"></i></span>
             </button>
@@ -329,8 +329,8 @@
     <div class="container">
       <div class="row stat_row">
         <div class="col-lg-12 text-center">
-          <h2>Stats & Testimonial</h2>
-          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <h2 class="h_stats">Stats & Testimonial</h2>
+          <p class="main_text stats_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
 
@@ -361,11 +361,11 @@
             <img src="img/icons/thumbs-up.png" alt="">
           </div>
           <p class="amount">900</p>
-          <p class="nomin">900</p>
+          <p class="nomin">Like</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 text-center">
           <div class="worker_photo_quote">
             <img src="img/worker1.png" alt="">
           </div>
@@ -373,54 +373,67 @@
           <p class="function">UI Designer</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="quotes">
+      <div class="row john_quote">
+        <div class="offset-2 col-1 d-flex justify-content-end">
+          <div class="l-quotes">
             <img src="img/icons/quote-left.png" alt="">
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
-          <div class="quotes">
+        </div>
+        <div class="col-7 text-center">
+          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+        </div>
+        <div class="col-1 d-flex align-items-end">
+          <div class="r-quotes">
             <img src="img/icons/quote-right.png" alt="">
           </div>
-        </div>
+        </div> 
+      
       </div>
     </div>
   </section>
 
   <section id="communication">
     <div class="container">
-      <div class="row">
+      <div class="row comm_text">
         <div class="col-lg-12 text-center">
-          <h2>Keep in touch with us</h2>
+          <h2 class="h-communication">Keep in touch with us</h2>
           <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-4">
+      <div class="row address_row">
+        <div class="col-4 text-center">
           <div class="contact_icon">
             <img src="img/icons/map-marker.png" alt="">
           </div>
           <div class="contact_item">Address</div>
-          <div class="contact_address">66, Dang Van ngu, Dong Da, 
+          <div class="contact_address">66, Dang Van ngu, Dong Da,<br> 
             Ha noi, Vietnam</div>
         </div>
-        <div class="col-4">
+        <div class="col-4 text-center">
           <div class="contact_icon">
             <img src="img/icons/e-mail.png" alt="">
           </div>
           <div class="contact_item">E-mail</div>
-          <div class="contact_address">contact@halovietnam.com</div>
+          <div class="d-flex align-items-center d-flex justify-content-center contact_address">contact@halovietnam.com</div>
         </div>
-        <div class="col-4">
+        <div class="col-4 text-center">
           <div class="contact_icon">
             <img src="img/icons/phone.png" alt="">
           </div>
           <div class="contact_item">Phone</div>
-          <div class="contact_address">+844 1234 56789</div>
+          <div class="d-flex align-items-center d-flex justify-content-center contact_address">+844 1234 56789</div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-8"></div>
+      <div class="row form_row">
+        <div class="col-12 text-center">
+          <form action="#">
+            <p><input type="email" placeholder="Email" required class="email_input"></p>
+            <p><input type="text" placeholder="Full name" required class="name_input"></p>
+            <p><input type="text" placeholder="Message" required class="message_input"></p>
+            <p><input type="submit" value="SEND MESSAGE"></p>
+
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -431,38 +444,41 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2>Sign up for our newsletter</h2>
-          <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+          <h2 class="h_footer">Sign up for our newsletter</h2>
+          <p class="main_text footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
         </div>
       </div>
-      <div class="row">
-        форма
+      <div class="row d-flex justify-content-center footer_form_row">
+        <form action="#" class="footer_form">
+          <input type="email" placeholder="Enter your email to update" required>
+          <input type="submit" value="SUBMIT">
+        </form>
       </div>
-      <div class="row">
-        <div class="col-auto">
+      <div class="row footer_cont_row">
+        <div class="col-4">
           HALOVIETNAM LTD<br>
           66, Dang Van ngu, Dong Da<br>
           Hanoi, Vietnam<br>
           contact@halovietnam.com<br>
           +844 35149182
         </div>
-        <div class="col-auto">
+        <div class="col-2">
           Examples<br>
           Shop<br>
           License
         </div>
-        <div class="col-auto">
+        <div class="col-2">
           Contact<br>
           About<br>
           Privacy<br>
           Terms
         </div>
-        <div class="col-auto">
+        <div class="col-2">
           Download<br>
           Support<br>
           Documents
         </div>
-        <div class="col-auto">
+        <div class="col-2">
           Media<br>
           Blog<br>
           Forums

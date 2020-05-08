@@ -17,6 +17,10 @@
     padding-top: 72px;
 }
 
+.toggler-burger{
+    position: absolute;
+}
+
 .menu_icon{
     font-size: 26px;
 }
@@ -182,7 +186,7 @@ h3 {
     margin-bottom: 21px;
 }
 
-.h_works, .h_team{
+.h_works, .h_team, .h_stats{
     margin-bottom: 28px;
 }
 
@@ -246,8 +250,131 @@ h3 {
 
 #stats{
     margin-top: 200px;
+    margin-bottom: 40px;
 }
 
 .stat_row{
     margin-bottom: 60px;
+}
+
+.stats_text{
+    margin-bottom: 64px;
+}
+
+.achievement_icons{
+    height: 61px;
+    margin-bottom: 20px;
+}
+
+.amount{
+    font-size: 24px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 0px;
+}
+
+.nomin{
+    font-size: 17px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: 94px;
+}
+
+.john_quote{
+    margin-top: 15px;
+}
+
+#communication{
+    margin-top: 200px;
+}
+
+.h-communication{
+    margin-bottom: 16px;
+}
+
+.comm_text{
+    margin-bottom: 55px;
+}
+
+.contact_icon{
+    margin-bottom: 24px;
+}
+
+.contact_item{
+    font-size: 29px;
+    font-weight: 400;
+    color: 010101;
+}
+
+.contact_address{
+    font-size: 17px;
+    font-weight: 400;
+    color: #898989;
+    height: 50px;
+    
+}
+
+.address_row{
+    margin-bottom: 47px;
+}
+
+.email_input, .name_input {
+    height: 65px;
+    width: 568px;
+    padding-left: 16px;
+}
+
+.message_input{
+    height: 245px;
+    width: 568px;
+    padding-left: 16px;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 60px;
+    background-color: #000000;
+    color: #fdfdfd;
+    border: 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.form_row{
+    margin-bottom: 89px;
+}
+
+#footer{
+    padding-top: 106px;
+    background-color: #010101;
+}
+
+.h_footer{
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+
+.footer_text{
+    margin-bottom: 45px;
+}
+
+form.footer_form>input[type=email] {
+    width: 706px;
+    height: 60px;
+    border: 0px;
+    padding-left: 28px;
+}
+
+form.footer_form>input[type=submit] {
+    background-color: #ffffff;
+    color: #010101;
+    width: 160px;
+}
+
+.footer_form_row{
+    margin-bottom: 127px;
+}
+
+.footer_cont_row{
+    padding-bottom: 319px;
 }
