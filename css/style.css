@@ -89,6 +89,11 @@ h1{
     font-weight: 700;
 }
 
+button.start_button:hover{
+    background-color: #000000;
+    color: #fcdb00;
+}
+
 .arrow{
     padding-top: 213px;
     padding-bottom: 63px;
@@ -112,7 +117,7 @@ h2.features_heading, h2.pricing{
     margin-bottom: 16px;
 }
 
-.main_text {
+.main_text{
     margin-bottom: 0px;
     padding-left: 124px;
     padding-right: 128px;
@@ -120,6 +125,31 @@ h2.features_heading, h2.pricing{
     font-weight: 400;
     line-height: 28.34px;
     color: #898989;
+}
+
+.feature_icon_tablet{
+    font-size: 47px;
+    line-height: 118%;
+}
+
+.feature_icon_lemon{
+    font-size: 50px;
+    line-height: 118%;
+}
+
+.feature_icon_folder{
+    font-size: 55px;
+    line-height: 118%;
+}
+
+.feature_icon_envelope{
+    font-size: 61px;
+    line-height: 109%;
+}
+
+.feature_icon_bookmark{
+    font-size: 53px;
+    line-height: 118%;
 }
 
 h3 {
@@ -194,6 +224,11 @@ h3 {
     font-size: 19px;
     font-weight: 700;
     color: #010101;
+}
+
+button.price_button:hover{
+    background-color: #010101;
+    color: #ffffff;
 }
 
 #works{
@@ -279,12 +314,17 @@ h3 {
 }
 
 .stats_text{
-    margin-bottom: 61px;
+    margin-bottom: 57px;
 }
 
 .achievement_icons{
     height: 61px;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
+    font-size: 47px;
+}
+
+.users_icon{
+    font-size: 55px;
 }
 
 .amount{
@@ -338,13 +378,21 @@ h3 {
     margin-bottom: 55px;
 }
 
+#communication a:hover{
+    text-decoration: none;
+    font-weight: 700;
+}
+
 .address{
     padding-left: 180px;
+}
 
+.comm_icon{
+    font-size: 24px;
 }
 
 .contact_item{
-    margin-top: 16px;
+    margin-top: 6px;
     font-size: 29px;
     font-weight: 400;
     color: 010101;
@@ -390,10 +438,11 @@ p>.name_input,p>.message_input{
     font-size: 19px;
 }
 
-.message_input{
+.message_text{
     height: 245px;
     width: 568px;
     padding-left: 16px;
+    padding-top: 14px;
     font-size: 19px;
 }
 
@@ -409,6 +458,12 @@ input[type=submit] {
     border: 0px;
     font-size: 19px;
     font-weight: 700;
+}
+
+p.button_submit>input[type=submit]:hover {
+    background-color: #fdfdfd;
+    border: 2px solid #000000;
+    color: #000000;
 }
 
 .form_row{
@@ -441,6 +496,12 @@ form.footer_form>input[type=submit] {
     background-color: #ffffff;
     color: #010101;
     width: 160px;
+}
+
+form.footer_form>input[type=submit]:hover{
+    background-color: #010101;
+    border: 2px solid #ffffff;
+    color: #ffffff;
 }
 
 .footer_form_row{
