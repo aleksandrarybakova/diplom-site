@@ -514,3 +514,165 @@ form.footer_form>input[type=submit]:hover{
     font-weight: 700;
     line-height: 133%;
 }
+
+/* адаптив */
+
+@media (max-width: 320px) {
+
+    .top_navigation{
+        flex-direction: column-reverse;
+        padding-top: 15px;
+    }
+
+    .social_networks_icons{
+        justify-content: flex-start !important;
+    }
+
+    .logo_cont{
+        justify-content: flex-start !important;
+    }
+
+    .s-icon{
+        font-size: 20px;
+    }
+
+    .social_google img{
+        height: 20px;
+    }
+
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo_name{
+        font-size: 25px;
+    }
+
+    .social_networks_icons div:first-child{
+        padding-left: 0px;
+    }
+
+    ..menu_icon{
+        font-size: 20px;
+    }
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 325px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .start_text{
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .start_button {
+        width: 200px;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .arrow {
+        padding-top: 100px;
+    }
+
+    .container.start {
+        height: 895px;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .main_text{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 17px;
+    }
+
+    .features_description {
+        margin-bottom: 65px;
+    }
+
+    .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
+        font-size: 35px;
+    }
+
+    .feature_icon img{
+        height: 39px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .text_features{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .feature_row {
+        margin-bottom: 10px;
+    }
+
+    #price {
+        margin-top: 75px;
+    }
+
+    .price_row {
+        margin-bottom: 60px;
+    }
+
+    .trial_row{
+        flex-direction: column;
+    }
+
+    .trial_item{
+        justify-content:center !important;
+        margin-bottom: 95px;
+    }
+
+    .trial_image{
+        height: 90px;
+    }
+
+    .price_text{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .price{
+        font-size: 28px;
+    }
+
+    .period {
+        margin-bottom: 15px;
+    }
+
+    .price_button {
+        width: 100px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    #works {
+        margin-top: 45px;
+    }
+    
+
+
+
+
+
+
+}
