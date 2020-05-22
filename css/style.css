@@ -6,7 +6,7 @@
 }
 
 .container.start{
-    height: 1016px;
+    height: 1013px;
 }
 
 #top{
@@ -14,7 +14,7 @@
 }
 
 .top_navigation{
-    padding-top: 72px;
+    padding-top: 69px;
 }
 
 .toggler-burger{
@@ -471,7 +471,7 @@ p.button_submit>input[type=submit]:hover {
 }
 
 #footer{
-    padding-top: 104px;
+    padding-top: 110px;
     background-color: #010101;
 }
 
@@ -518,6 +518,315 @@ form.footer_form>input[type=submit]:hover{
 /* адаптив */
 
 @media (max-width: 320px) {
+
+    .top_navigation{
+        flex-direction: column-reverse;
+        padding-top: 15px;
+    }
+
+    .social_networks_icons{
+        justify-content: flex-start !important;
+    }
+
+    .logo_cont{
+        justify-content: flex-start !important;
+    }
+
+    .s-icon{
+        font-size: 20px;
+    }
+
+    .social_google img{
+        height: 20px;
+    }
+
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo_name{
+        font-size: 25px;
+    }
+
+    .social_networks_icons div:first-child{
+        padding-left: 0px;
+    }
+
+    .menu_icon{
+        font-size: 20px;
+    }
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 325px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .start_text{
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .start_button {
+        width: 200px;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .arrow {
+        padding-top: 100px;
+    }
+
+    .container.start {
+        height: 895px;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .main_text{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 17px;
+    }
+
+    .features_description {
+        margin-bottom: 65px;
+    }
+
+    .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
+        font-size: 35px;
+        float: left;
+    }
+
+    .feature_icon img{
+        height: 39px;
+    }
+
+    .text_feat_cont{
+        padding-left: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .text_features{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .feature_row {
+        margin-bottom: 10px;
+    }
+
+    #price {
+        margin-top: 75px;
+    }
+
+    .price_row {
+        margin-bottom: 60px;
+    }
+
+    .trial_row{
+        flex-direction: column;
+    }
+
+    .trial_item{
+        justify-content:center !important;
+        margin-bottom: 95px;
+    }
+
+    .trial_image{
+        height: 90px;
+    }
+
+    .price_text{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .price{
+        font-size: 28px;
+    }
+
+    .period {
+        margin-bottom: 15px;
+    }
+
+    .price_button {
+        width: 100px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    #works {
+        margin-top: 45px;
+    }
+
+    .works_cont{
+        width: 54%;
+    }
+
+    .works_cont img{
+        height: 90px;
+    }
+
+    .type_work{
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .category{
+        font-size: 15px;
+    }
+
+    #team {
+        margin-top: 60px;
+    }
+
+    .team_text {
+        margin-bottom: 60px;
+    }
+
+    .team_cont{
+        margin-bottom: 30px;
+    }
+
+    .worker_photo img{
+        width: 100px;
+    }
+
+    .name{
+        font-size: 22px;
+    }
+
+    .function{
+        font-size: 16px;
+    }
+
+    .description{
+       font-size: 14px; 
+    }
+
+    .social-icon{
+        font-size: 17px;
+    }
+
+    #stats {
+        margin-top: 100px;
+    }
+
+    .achievement_icons{
+        font-size: 30px;
+    }
+
+    .amount {
+        font-size: 16px;
+    }
+
+    .nomin {
+        font-size: 12px;
+    }
+
+    .achievement_icons{
+        height: auto;
+    }
+
+    .nomin{
+        margin-bottom: 55px;
+    }
+
+    .worker_photo_quote img{
+        height: 120px;
+    }
+
+    .r-quotes{
+        justify-content:start ;
+    }
+
+    #communication {
+        margin-top: 110px;
+    }
+
+    .comm_icon {
+        font-size: 22px;
+    }
+
+    .contact_item {
+        font-size: 20px;
+    }
+
+    .contact_address {
+        font-size: 10px;
+    }
+
+    .item_email {
+        padding-right: 0px;
+    }
+
+    .email_input, .name_input {
+        height: 55px;
+        width: 257px;
+        font-size: 16px;
+    }
+
+    .message_text {
+        height: 130px;
+        width: 257px;
+        font-size: 16px;
+    }
+
+    .input[type=submit] {
+        width: 190px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    form.footer_form>input[type=email] {
+        width: 265px;
+        margin-left: 14px;
+        height: 55px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    form.footer_form>input[type=submit] {
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 60px;
+        height: 50px;
+    }
+
+    .footer_form_row {
+        margin-bottom: 85px;
+    }
+
+    .footer_cont_row {
+        font-size: 14px;
+        padding-bottom: 73px;
+    }
+
+    .footer_item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
 
     .top_navigation{
         flex-direction: column-reverse;
@@ -606,6 +915,11 @@ form.footer_form>input[type=submit]:hover{
 
     .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
         font-size: 35px;
+        margin-right: 10px;
+    }
+
+    .feature_icon{
+        text-align: start !important;
     }
 
     .feature_icon img{
@@ -668,11 +982,1057 @@ form.footer_form>input[type=submit]:hover{
     #works {
         margin-top: 45px;
     }
-    
+
+    .works_cont{
+        width: 54%;
+    }
+
+    .works_cont img{
+        height: 90px;
+    }
+
+    .type_work{
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .category{
+        font-size: 15px;
+    }
+
+    #team {
+        margin-top: 60px;
+    }
+
+    .team_text {
+        margin-bottom: 60px;
+    }
+
+    .team_cont{
+        margin-bottom: 30px;
+    }
+
+    .worker_photo img{
+        width: 100px;
+    }
+
+    .name{
+        font-size: 22px;
+    }
+
+    .function{
+        font-size: 16px;
+    }
+
+    .description{
+       font-size: 14px; 
+    }
+
+    .social-icon{
+        font-size: 17px;
+    }
+
+    #stats {
+        margin-top: 100px;
+    }
+
+    .achievement_icons{
+        font-size: 30px;
+    }
+
+    .amount {
+        font-size: 16px;
+    }
+
+    .nomin {
+        font-size: 12px;
+    }
+
+    .achievement_icons{
+        height: auto;
+    }
+
+    .nomin{
+        margin-bottom: 55px;
+    }
+
+    .worker_photo_quote img{
+        height: 120px;
+    }
+
+    .r-quotes{
+        justify-content:start ;
+    }
+
+    #communication {
+        margin-top: 110px;
+    }
+
+    .comm_icon {
+        font-size: 22px;
+    }
+
+    .contact_item {
+        font-size: 20px;
+    }
+
+    .contact_address {
+        font-size: 10px;
+    }
+
+    .item_email {
+        padding-right: 0px;
+    }
+
+    .email_input, .name_input {
+        height: 55px;
+        width: 285px;
+        font-size: 16px;
+    }
+
+    .message_text {
+        height: 130px;
+        width: 285px;
+        font-size: 16px;
+    }
+
+    .input[type=submit] {
+        width: 190px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    form.footer_form>input[type=email] {
+        width: 285px;
+        margin-left: 14px;
+        height: 55px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    form.footer_form>input[type=submit] {
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 14px;
+        height: 50px;
+    }
+
+    .footer_form_row {
+        margin-bottom: 85px;
+    }
+
+    .footer_cont_row {
+        font-size: 14px;
+        padding-bottom: 73px;
+    }
+
+    .footer_item{
+        margin-bottom: 15px;
+    }
+}
 
 
+@media (min-width: 481px) and (max-width: 576px) {
 
+    .top_navigation{
+        flex-direction: column-reverse;
+        padding-top: 15px;
+    }
 
+    .social_networks_icons{
+        justify-content: flex-start !important;
+    }
 
+    .logo_cont{
+        justify-content: flex-start !important;
+    }
 
+    .s-icon{
+        font-size: 25px;
+    }
+
+    .social_google img{
+        height: 25px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo_name{
+        font-size: 30px;
+    }
+
+    .social_networks_icons div:first-child{
+        padding-left: 0px;
+    }
+
+    .menu_icon{
+        font-size: 20px;
+    }
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 325px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    .start_text{
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .start_button {
+        width: 200px;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .arrow {
+        padding-top: 145px;
+    }
+
+    .container.start {
+        height: 895px;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .main_text{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 19px;
+    }
+
+    .features_description {
+        margin-bottom: 65px;
+    }
+
+    .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
+        font-size: 35px;
+    }
+
+    .feature_icon img{
+        height: 39px;
+    }
+
+    .text_feat_cont{
+        padding-left: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .text_features{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .feature_row {
+        margin-bottom: 10px;
+    }
+
+    #price {
+        margin-top: 75px;
+    }
+
+    .price_row {
+        margin-bottom: 60px;
+    }
+
+   
+    .trial_item{
+        justify-content:center !important;
+        margin-bottom: 95px;
+    }
+
+    .trial_image{
+        height: 90px;
+    }
+
+    .price_text{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .price{
+        font-size: 28px;
+    }
+
+    .period {
+        margin-bottom: 15px;
+    }
+
+    .price_button {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #works {
+        margin-top: 45px;
+    }
+
+    .works_cont img{
+        height: 130px;
+    }
+
+    .type_work{
+        font-size: 19px;
+        padding-right: 0px;
+    }
+
+    .category{
+        font-size: 17px;
+    }
+
+    #team {
+        margin-top: 60px;
+    }
+
+    .team_text {
+        margin-bottom: 60px;
+    }
+
+    .team_cont{
+        margin-bottom: 30px;
+    }
+
+    .worker_photo img{
+        width: 120px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .function{
+        font-size: 18px;
+    }
+
+    .description{
+       font-size: 16px; 
+    }
+
+    .social-icon{
+        font-size: 19px;
+    }
+
+    #stats {
+        margin-top: 100px;
+    }
+
+    .achievement_icons{
+        font-size: 40px;
+    }
+
+    .amount {
+        font-size: 19px;
+    }
+
+    .nomin {
+        font-size: 14px;
+    }
+
+    .achievement_icons{
+        height: auto;
+    }
+
+    .nomin{
+        margin-bottom: 55px;
+    }
+
+    .worker_photo_quote img{
+        height: 120px;
+    }
+
+    .r-quotes{
+        justify-content:start ;
+    }
+
+    #communication {
+        margin-top: 110px;
+    }
+
+    .comm_icon {
+        font-size: 27px;
+    }
+
+    .contact_item {
+        font-size: 25px;
+    }
+
+    .contact_address {
+        font-size: 12px;
+    }
+
+    .item_email {
+        padding-right: 0px;
+    }
+
+    .email_input, .name_input {
+        height: 55px;
+        width: 438px;
+        font-size: 16px;
+    }
+
+    .message_text {
+        height: 130px;
+        width: 438px;
+        font-size: 16px;
+    }
+
+    .input[type=submit] {
+        width: 190px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    form.footer_form>input[type=email] {
+        width: 438px;
+        margin-left: 14px;
+        height: 55px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    form.footer_form>input[type=submit] {
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 14px;
+        height: 50px;
+    }
+
+    .footer_form_row {
+        margin-bottom: 85px;
+    }
+
+    .footer_cont_row {
+        font-size: 15px;
+        padding-bottom: 73px;
+    }
+
+    .footer_item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .s-icon{
+        font-size: 20px;
+    }
+
+    .social_google img{
+        height: 20px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo_name{
+        font-size: 30px;
+    }
+
+    .social_networks_icons div:first-child{
+        padding-left: 0px;
+    }
+
+    .menu_icon{
+        font-size: 20px;
+    }
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 325px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    .start_text{
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .start_button {
+        width: 200px;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .arrow {
+        padding-top: 145px;
+    }
+
+    .container.start {
+        height: 895px;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .main_text{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 19px;
+    }
+
+    .features_description {
+        margin-bottom: 65px;
+    }
+
+    .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
+        font-size: 35px;
+    }
+
+    .feature_icon img{
+        height: 39px;
+    }
+
+    .text_feat_cont{
+        padding-left: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .text_features{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .feature_row {
+        margin-bottom: 10px;
+    }
+
+    #price {
+        margin-top: 75px;
+    }
+
+    .price_row {
+        margin-bottom: 60px;
+    }
+
+   
+    .trial_item{
+        justify-content:center !important;
+        margin-bottom: 95px;
+    }
+
+    .trial_image{
+        height: 90px;
+    }
+
+    .h_price{
+        font-size: 22px;
+    }
+
+    .price_text{
+        line-height: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 26px;
+    }
+
+    .period {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .price_button {
+        width: 107px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    #works {
+        margin-top: 45px;
+    }
+
+    .works_cont img{
+        height: 170px;
+    }
+
+    .type_work{
+        font-size: 20px;
+        padding-right: 0px;
+    }
+
+    .category{
+        font-size: 18px;
+    }
+
+    #team {
+        margin-top: 60px;
+    }
+
+    .team_text {
+        margin-bottom: 60px;
+    }
+
+    .team_cont{
+        margin-bottom: 30px;
+    }
+
+    .worker_photo img{
+        width: 120px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .function{
+        font-size: 18px;
+    }
+
+    .description{
+       font-size: 16px; 
+    }
+
+    .social-icon{
+        font-size: 19px;
+    }
+
+    #stats {
+        margin-top: 100px;
+    }
+
+    .achievement_icons{
+        font-size: 45px;
+    }
+
+    .amount {
+        font-size: 22px;
+    }
+
+    .nomin {
+        font-size: 16px;
+    }
+
+    .achievement_icons{
+        height: auto;
+    }
+
+    .nomin{
+        margin-bottom: 55px;
+    }
+
+    .worker_photo_quote img{
+        height: 120px;
+    }
+
+    .r-quotes{
+        justify-content:start ;
+    }
+
+    #communication {
+        margin-top: 110px;
+    }
+
+    .comm_icon {
+        font-size: 27px;
+    }
+
+    .contact_item {
+        font-size: 25px;
+    }
+
+    .contact_address {
+        font-size: 12px;
+    }
+
+    .item_email {
+        padding-right: 0px;
+    }
+
+    .email_input, .name_input {
+        height: 55px;
+        width: 510px;
+        font-size: 16px;
+    }
+
+    .message_text {
+        height: 130px;
+        width: 510px;
+        font-size: 16px;
+    }
+
+    .input[type=submit] {
+        width: 190px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    form.footer_form>input[type=email] {
+        width: 510px;
+        margin-left: 14px;
+        height: 55px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    form.footer_form>input[type=submit] {
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 14px;
+        height: 50px;
+    }
+
+    .footer_form_row {
+        margin-bottom: 85px;
+    }
+
+    .footer_cont_row {
+        font-size: 15px;
+        padding-bottom: 73px;
+    }
+
+    .footer_item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .s-icon{
+        font-size: 25px;
+    }
+
+    .social_google img{
+        height: 25px;
+    }
+
+    .logo{
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo_name{
+        font-size: 35px;
+    }
+
+    .social_networks_icons div:first-child{
+        padding-left: 0px;
+    }
+
+    .menu_icon{
+        font-size: 25px;
+    }
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 325px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    .start_text{
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .start_button {
+        width: 200px;
+        height: 44px;
+        font-size: 18px;
+    }
+
+    .arrow {
+        padding-top: 145px;
+    }
+
+    .container.start {
+        height: 895px;
+    }
+
+    #features {
+        padding-top: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .main_text{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 19px;
+    }
+
+    .features_description {
+        margin-bottom: 65px;
+    }
+
+    .feature_icon_tablet,.feature_icon_lemon,.feature_icon_folder,.feature_icon_envelope,.feature_icon_bookmark{
+        font-size: 33px;
+    }
+
+    .feature_icon img{
+        height: 39px;
+    }
+
+    .text_feat_cont{
+        padding-left: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .text_features{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .feature_row {
+        margin-bottom: 10px;
+    }
+
+    #price {
+        margin-top: 75px;
+    }
+
+    .price_row {
+        margin-bottom: 60px;
+    }
+
+   
+    .trial_item{
+        justify-content:center !important;
+        margin-bottom: 95px;
+    }
+
+    .trial_image{
+        height: 90px;
+    }
+
+    .h_price{
+        font-size: 22px;
+    }
+
+    .price_text{
+        line-height: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 26px;
+    }
+
+    .period {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .price_button {
+        width: 107px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    #works {
+        margin-top: 45px;
+    }
+
+    .works_cont img{
+        height: 200px;
+    }
+
+    .type_work{
+        font-size: 20px;
+        padding-right: 0px;
+    }
+
+    .category{
+        font-size: 18px;
+    }
+
+    #team {
+        margin-top: 60px;
+    }
+
+    .team_text {
+        margin-bottom: 60px;
+    }
+
+    .team_cont{
+        margin-bottom: 45px;
+    }
+
+    .worker_photo img{
+        width: 120px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .function{
+        font-size: 18px;
+    }
+
+    .description{
+       font-size: 16px; 
+    }
+
+    .social-icon{
+        font-size: 19px;
+    }
+
+    #stats {
+        margin-top: 100px;
+    }
+
+    .achievement_icons{
+        font-size: 45px;
+    }
+
+    .amount {
+        font-size: 22px;
+    }
+
+    .nomin {
+        font-size: 16px;
+    }
+
+    .achievement_icons{
+        height: auto;
+    }
+
+    .nomin{
+        margin-bottom: 55px;
+    }
+
+    .worker_photo_quote img{
+        height: 120px;
+    }
+
+    .r-quotes{
+        justify-content:start ;
+    }
+
+    #communication {
+        margin-top: 110px;
+    }
+
+    .comm_icon {
+        font-size: 27px;
+    }
+
+    .contact_item {
+        font-size: 25px;
+    }
+
+    .contact_address {
+        font-size: 12px;
+    }
+
+    .item_email {
+        padding-right: 0px;
+    }
+
+    .email_input, .name_input {
+        height: 55px;
+        width: 510px;
+        font-size: 16px;
+    }
+
+    .message_text {
+        height: 130px;
+        width: 510px;
+        font-size: 16px;
+    }
+
+    .input[type=submit] {
+        width: 190px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    form.footer_form>input[type=email] {
+        width: 510px;
+        margin-left: 14px;
+        height: 55px;
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    form.footer_form>input[type=submit] {
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 14px;
+        height: 55px;
+    }
+
+    .footer_form_row {
+        margin-bottom: 85px;
+    }
+
+    .footer_cont_row {
+        font-size: 15px;
+        padding-bottom: 73px;
+    }
+
+    .footer_item{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .start_page{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .works_cont img{
+        height: 200px;
+    }
 }
