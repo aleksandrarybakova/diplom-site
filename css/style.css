@@ -55,10 +55,15 @@
 
 .s-icon{
     font-size: 26px;
+    transition: scale, 1s, .5s ease;
 }
 
 .social_google{
     padding-bottom: 7px;
+}
+
+.s-icon:hover{
+    transform: scale(1.5, 1.5);
 }
 
 .start_page{
@@ -94,8 +99,9 @@ button.start_button:hover{
     color: #fcdb00;
 }
 
-.arrow{
-    padding-top: 213px;
+.arrow_icon{
+    font-size: 44px;
+    padding-top: 210px;
     padding-bottom: 63px;
 }
 
@@ -345,12 +351,17 @@ button.price_button:hover{
     margin-top: 20px;
 }
 
+.quotes path{
+    color: #898989 !important;
+}
+
 .l-quotes{
     padding-top: 4px;
+    font-size: 23px;
 }
 
 .r-quotes{
-    padding-bottom: 2px;
+    font-size: 23px;
 }
 
 .name_John{
@@ -578,7 +589,7 @@ form.footer_form>input[type=submit]:hover{
         font-size: 18px;
     }
 
-    .arrow {
+    .arrow_icon {
         padding-top: 100px;
     }
 
@@ -777,13 +788,13 @@ form.footer_form>input[type=submit]:hover{
 
     .email_input, .name_input {
         height: 55px;
-        width: 257px;
+        width: 100%;
         font-size: 16px;
     }
 
     .message_text {
         height: 130px;
-        width: 257px;
+        width: 100%;
         font-size: 16px;
     }
 
@@ -798,8 +809,8 @@ form.footer_form>input[type=submit]:hover{
     }
 
     form.footer_form>input[type=email] {
-        width: 265px;
-        margin-left: 14px;
+        width: 95%;
+        margin-left: 7px;
         height: 55px;
         padding-left: 15px;
         font-size: 17px;
@@ -808,8 +819,9 @@ form.footer_form>input[type=submit]:hover{
     form.footer_form>input[type=submit] {
         width: 160px;
         margin-top: 15px;
-        margin-left: 60px;
+        margin-left: 7px;
         height: 50px;
+       
     }
 
     .footer_form_row {
@@ -862,7 +874,7 @@ form.footer_form>input[type=submit]:hover{
         padding-left: 0px;
     }
 
-    ..menu_icon{
+    .menu_icon{
         font-size: 20px;
     }
 
@@ -887,8 +899,8 @@ form.footer_form>input[type=submit]:hover{
         font-size: 18px;
     }
 
-    .arrow {
-        padding-top: 100px;
+    .arrow_icon {
+        padding-top: 40%;
     }
 
     .container.start {
@@ -1086,13 +1098,13 @@ form.footer_form>input[type=submit]:hover{
 
     .email_input, .name_input {
         height: 55px;
-        width: 285px;
+        width: 100%;
         font-size: 16px;
     }
 
     .message_text {
         height: 130px;
-        width: 285px;
+        width: 100%;
         font-size: 16px;
     }
 
@@ -1107,7 +1119,7 @@ form.footer_form>input[type=submit]:hover{
     }
 
     form.footer_form>input[type=email] {
-        width: 285px;
+        width: 95%;
         margin-left: 14px;
         height: 55px;
         padding-left: 15px;
@@ -1197,8 +1209,8 @@ form.footer_form>input[type=submit]:hover{
         font-size: 18px;
     }
 
-    .arrow {
-        padding-top: 145px;
+    .arrow_icon {
+        padding-top: 35%;
     }
 
     .container.start {
@@ -1388,13 +1400,13 @@ form.footer_form>input[type=submit]:hover{
 
     .email_input, .name_input {
         height: 55px;
-        width: 438px;
+        width: 100%;
         font-size: 16px;
     }
 
     .message_text {
         height: 130px;
-        width: 438px;
+        width: 100%;
         font-size: 16px;
     }
 
@@ -1409,7 +1421,7 @@ form.footer_form>input[type=submit]:hover{
     }
 
     form.footer_form>input[type=email] {
-        width: 438px;
+        width: 95%;
         margin-left: 14px;
         height: 55px;
         padding-left: 15px;
@@ -1485,8 +1497,8 @@ form.footer_form>input[type=submit]:hover{
         font-size: 18px;
     }
 
-    .arrow {
-        padding-top: 145px;
+    .arrow_icon {
+        padding-top: 135px;
     }
 
     .container.start {
@@ -1682,13 +1694,13 @@ form.footer_form>input[type=submit]:hover{
 
     .email_input, .name_input {
         height: 55px;
-        width: 510px;
+        width: 100%;
         font-size: 16px;
     }
 
     .message_text {
         height: 130px;
-        width: 510px;
+        width: 100%;
         font-size: 16px;
     }
 
@@ -1703,7 +1715,7 @@ form.footer_form>input[type=submit]:hover{
     }
 
     form.footer_form>input[type=email] {
-        width: 510px;
+        width: 95%;
         margin-left: 14px;
         height: 55px;
         padding-left: 15px;
@@ -1779,7 +1791,7 @@ form.footer_form>input[type=submit]:hover{
         font-size: 18px;
     }
 
-    .arrow {
+    .arrow_icon {
         padding-top: 145px;
     }
 
